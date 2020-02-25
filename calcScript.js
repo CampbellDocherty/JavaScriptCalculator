@@ -14,7 +14,6 @@ var multiplyBtn = document.getElementById('multiplyBtn');
 var divideBtn = document.getElementById('divideBtn');
 var decimalBtn = document.getElementById('decimalBtn')
 var clearBtn = document.getElementById('clear_all');
-var backspaceBtn = document.getElementById('clear_last');
 var displayValue = document.getElementById('displayVal');
 
 var defaultDisplayValue = '0';
@@ -93,17 +92,6 @@ clearBtn.onclick = () => {
     defaultDisplayValue = '0';
     evalArray = [];
     pending = undefined;
-    displayValue.innerText = defaultDisplayValue;
-}
-
-backspaceBtn.onclick = () => {
-    let lengthDisplay = defaultDisplayValue.length;
-    defaultDisplayValue = defaultDisplayValue.slice(0, lengthDisplay - 1);
-
-    if (defaultDisplayValue = '') {
-        defaultDisplayValue = '0'
-    }
-
     displayValue.innerText = defaultDisplayValue;
 }
 

@@ -82,6 +82,17 @@ p {
     background-color: grey;
 }
 
+#clear_all{
+    width: 10rem;
+    float: left;
+    width: 50%;
+}
+
+#multiplyBtn, #subtractBtn {
+    width: 25%;
+    float: left;
+}
+
 #decimalBtn {
     background-color: darkorange;
 }
