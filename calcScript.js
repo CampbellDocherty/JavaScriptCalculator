@@ -94,13 +94,12 @@ clearBtn.onclick = () => {
     defaultDisplayValue = '0';
     evalArray = [];
     pending = undefined;
-    displayValue.innerHTML = defaultDisplayValue;
+    displayValue.innerText = defaultDisplayValue;
 }
 
 backspaceBtn.onclick = () => {
     let lengthDisplay = defaultDisplayValue.length;
     defaultDisplayValue = defaultDisplayValue.slice(0, lengthDisplay - 1);
-    displayValue.innerText = defaultDisplayValue;
 
     if (defaultDisplayValue = '') {
         defaultDisplayValue = '0'
