@@ -33,7 +33,6 @@ var displayValueFunct = function(clickObj) {
 
     defaultDisplayValue += btnValue;
     displayValue.innerText = defaultDisplayValue
-
 }
 
 var performOperation = function(clickObj) {
