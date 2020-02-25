@@ -1,0 +1,87 @@
+body {
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none;                             
+}
+
+.display {
+    background-color:black;
+    color: white;
+    text-align: right;    
+    height: 8rem;
+    font-size: 6rem;
+}
+
+p {
+    color: white;
+    margin-right: 1rem;
+}
+
+.keys {
+    background-color: darkgrey;
+    float: left;
+    display: table;
+}
+
+.column {
+    width: 25%;
+    float: left;
+}
+
+.column2 {
+    width: 50%;
+    float: left;
+}
+
+.operator, .number {
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    margin: 0rem;
+    border-color: black;
+    border-width: 0.01rem;
+    cursor: pointer;
+}
+
+.operator:hover {
+    background-color: orange;
+}
+
+.number:hover {
+    background-color: lightgray;
+}
+
+.calculator {
+    background-color: black;
+    margin: auto;
+    max-width: 20rem;
+    max-height: 25rem;
+    margin-top: 5rem;
+}
+
+#zeroBtn {
+    width: 10rem;
+}
+
+#equalBtn {
+    width: 10rem;
+}
+
+.operator {
+    background-color: darkorange;
+}
+
+.Clear {
+    background-color: darkgray;
+}
+
+.Clear:hover {
+    background-color: grey;
+}
+
+#decimalBtn {
+    background-color: darkorange;
+}
