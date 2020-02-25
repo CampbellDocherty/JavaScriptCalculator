@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html lang="en"></html>
+    <title>Javascript Calculator</title>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="calculator.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="display" id="displayVal">0</div>
+            <div class="keys">
+                <div class="column">    
+                    <button class="operator Clear" id="clear_all">AC</button>
+                    <button class="number" id="sevenBtn">7</button>
+                    <button class="number" id="fourBtn">4</button>
+                    <button class="number" id="oneBtn">1</button>
+                 </div>
+                <div class="column">
+                    <button class="operator Clear" id="clear_last">CE</button>
+                    <button class="number" id="eightBtn">8</button>
+                    <button class="number" id="fiveBtn">5</button>
+                    <button class="number" id="twoBtn">2</button>
+                </div>
+                <div class="column">
+                    <button class="operator" id="multiplyBtn">x</button>
+                    <button class="number" id="nineBtn">9</button>
+                    <button class="number" id="sixBtn">6</button>
+                    <button class="number" id="threeBtn">3</button>
+                </div>
+                <div class="column">
+                    <button class="operator" id="subtractBtn">-</button>
+                    <button class="operator" id="plusBtn">+</button>
+                    <button class="operator" id="divideBtn">÷</button>
+                    <button class="number" id="decimalBtn">.</button>
+                </div>
+                <div class="bottomButtons">
+                    <div class="column2">
+                        <button class="number" id="zeroBtn">0</button>
+                    </div>
+                    <div class="column2">
+                        <button class="operator" id="equalBtn">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="calcScript.js"></script>
+    </body>
